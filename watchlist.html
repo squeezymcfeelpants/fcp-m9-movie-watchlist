@@ -9,33 +9,25 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css">
-	<script src="index.js" type="module"></script>
+	<script src="watchlist.js" type="module"></script>
 	<title>FCP - M9 - Movie Watchlist</title>
 </head>
 <body>
 	<div class="container">
 		<header class="header">
 			<div class="header-title-container">
-				<h2>Find your film</h2>
+				<h2>My Watchlist</h2>
 			</div>
 			<div class="header-button-container">
-				<div class="link-btn" id="watchlist-btn">
-					<div class="watchlist-notif shrunken" id="notification"></div>
-					<h3>Watchlist</h3>
+				<div class="link-btn" id="search-btn">
+					<h3>Search for movies</h3>
 				</div>
-			</div>
-			<div class="search-bar">
-				<div class="search-bar-icon">
-					<i class="fa-solid fa-magnifying-glass"></i>
-				</div>
-				<input class="search-bar-input" id="fcp-m9-search-text" type="text" placeholder="Search for a movie">
-				<div class="search-bar-btn" id="search-btn">Search</div>
 			</div>
 		</header>
 		<section class="section-lower" id="dynamic-content">
 			<div class="placeholder">
-				<i class="fa-solid fa-film placeholder-icon"></i>
-				<h3 class="placeholder-text">Start exploring</h3>
+				<i class="fa-solid fa-battery-empty placeholder-icon"></i>
+				<h3 class="placeholder-text">Your watchlist is looking a little empty...</h3>
 			</div>
 		</section>
 		<footer class="footer">
